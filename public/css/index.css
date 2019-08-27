@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap');
+
+#principal{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 90vh; /* These two lines are counted as one :-)       */
+    font-size: 5rem;
+}
+
+@media (min-width:544px) {
+  #principal {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width:768px) {
+  #principal {
+    font-size: 9rem;
+  }
+}
+
+@media (min-width:992px) {
+  #principal {
+    font-size: 10.5rem;
+  }
+}
+
+@media (min-width:1200px) {
+  #principal {
+    font-size: 10.5rem;
+  }
+}
