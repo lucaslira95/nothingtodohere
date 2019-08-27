@@ -4,7 +4,7 @@
         @include('meta_tags')
         @include('css_imports')
         <title>The Layout Trails - Sobre</title>
-        <link href="{{ asset('css/about.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/about.css') }}" rel="stylesheet">
     </head>
     <body>
         @include('navbar')

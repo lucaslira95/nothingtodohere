@@ -4,7 +4,7 @@
         @include('meta_tags')
         @include('css_imports')
         <title>The Layout Trails</title>
-        <link href="{{ asset('css/index.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/index.css') }}" rel="stylesheet">
     </head>
     <body>
         @include('navbar')
