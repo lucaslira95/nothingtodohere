@@ -9,7 +9,7 @@
     <body>
         @include('navbar')
         
-        <div id="principal">The Layout Trails</div>
+        <div id="principal">Nothing to do here</div>
         
         
         
