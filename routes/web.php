@@ -17,5 +17,12 @@ Route::get('/', function () {
 
 Route::get('about', function () {
     return view('about');
-})->name('root');
+});
 
+Route::get('faqs', function () {
+    return view('faqs');
+});
+
+Route::get('ideias', function () {
+    return view('ideias');
+});

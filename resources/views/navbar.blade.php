@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Não sei ainda <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="ideias">Idéias<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">FAQs</a>
+                <a class="nav-link" href="faqs">FAQs</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="about">Sobre</a>
