@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top" style="background-color:#1ad64f;">
-    <a class="navbar-brand" id="logo_text" href="/">
+<nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top animsition" style="background-color:#1ad64f;">
+    <a class="navbar-brand animsition-link" id="logo_text" href="/">
         <img id="logo_svg" src="{{ secure_asset('svg/palette.svg') }}" width="30" height="30" class="d-inline-block align-top svg" alt="">
         Nothing to do here
     </a>
@@ -9,13 +9,13 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="ideias">Idéias<span class="sr-only">(current)</span></a>
+                <a class="nav-link animsition-link" href="ideias">Idéias<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="faqs">FAQs</a>
+                <a class="nav-link animsition-link" href="faqs">FAQs</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="about">Sobre</a>
+                <a class="nav-link animsition-link" href="about">Sobre</a>
             </li>
         </ul>
     </div>
