@@ -6,7 +6,7 @@
         <link href="{{ secure_asset('css/index.css') }}" rel="stylesheet">
         <title>Nothing to do here</title>
     </head>
-    <body id="wrapper">
+    <body>
         @include('navbar')
         <div id="dynamic">
             @include('principal')
