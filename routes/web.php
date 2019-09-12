@@ -26,3 +26,7 @@ Route::get('faqs', function () {
 Route::get('ideias', function () {
     return view('ideias');
 });
+
+Route::get('principal', function () {
+    return view('principal');
+});
