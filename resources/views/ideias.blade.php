@@ -1,4 +1,3 @@
-<style type="text/css">@import url({{ secure_asset('css/ideias.css') }})</style>
 <div class="container">
     <div class="card">
         <div class="card-body">
