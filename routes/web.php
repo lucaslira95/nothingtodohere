@@ -30,3 +30,5 @@ Route::get('ideias', function () {
 Route::get('principal', function () {
     return view('principal');
 });
+
+Route::post('ideias/insert','IdeiasController@InsertIdeia');
